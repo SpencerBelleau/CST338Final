@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip"
+    tools:context="edu.sbelleau.bookholdsystem.ConfirmHoldActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Please Confirm Information"
+        android:textSize="@dimen/abc_text_size_large_material" />
+    
+    <TextView
+        android:id="@+id/txt_book_hold_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: Placeholder" />
+    
+    <TextView
+        android:id="@+id/txt_book_hold_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date: placeholder\nEnd Date: placeholder" />
+    
+    <TextView
+        android:id="@+id/txt_book_hold_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: placeholder\nReservation Number: placeholder\nAmount owed: $placeholder" />
+    
+    <Button
+        android:id="@+id/btn_book_hold_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        />
+
+</LinearLayout>
