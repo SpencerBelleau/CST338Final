@@ -52,7 +52,6 @@ public class CreateAccountActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
 		if (v.getId() == R.id.btn_confirm_new_account)
 		{
 			username = UN.getText().toString();

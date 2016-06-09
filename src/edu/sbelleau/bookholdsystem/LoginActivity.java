@@ -68,8 +68,6 @@ public class LoginActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		
 		if(username.getText().toString() != null && password.getText().toString() != null)
 		{
 			login(username.getText().toString(), password.getText().toString());

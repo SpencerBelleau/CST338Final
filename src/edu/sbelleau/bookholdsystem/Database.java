@@ -405,7 +405,7 @@ public class Database {
 	/*
 	 * Import and Export functions
 	 * Exports database to a pseudo CSV file
-	 * Doesn't seem to work on Droid for some reason, probably a filesystem issue
+	 * Cut due to time constraints
 	 * Originally the database could be successfully exported and imported from a file
 	 */
 	

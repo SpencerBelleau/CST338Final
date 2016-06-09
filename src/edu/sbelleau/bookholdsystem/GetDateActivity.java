@@ -35,7 +35,6 @@ public class GetDateActivity extends Activity implements OnClickListener {
 	}
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
 		Date d = getDateFromDroid(date, time);
 		result.putExtra("Date", d.getTime());
 		this.setResult(RESULT_OK, result);

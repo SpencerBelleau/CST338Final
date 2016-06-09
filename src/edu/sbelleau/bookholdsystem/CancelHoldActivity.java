@@ -38,7 +38,6 @@ public class CancelHoldActivity extends Activity implements OnClickListener {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data)
 	{
 		db = Database.getInstance();
-		//Toast.makeText(this, (Integer.toString(requestCode) + " " + Integer.toString(resultCode)), Toast.LENGTH_SHORT).show();
 		if(data != null)
 		{
 			requestedData = data.getExtras();

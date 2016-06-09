@@ -34,7 +34,6 @@ public class SelectionActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		// TODO Auto-generated method stub
 		if(v.getId() == R.id.btn_create_account)
 		{
 			Intent i = new Intent(this, CreateAccountActivity.class);
